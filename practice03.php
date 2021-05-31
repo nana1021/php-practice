@@ -2,7 +2,8 @@
 $name = "オノガワ";
 if ($name = "オノガワ") {
     echo "私はオノガワです";
-} else {
+} 
+else {
 echo "あなたの名前ではありません";
 }
 echo "\n";
