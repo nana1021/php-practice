@@ -1,6 +1,6 @@
 <?php
 $name = "オノガワ";
-if ($name = "オノガワ") {
+if ($name == "オノガワ") {
     echo "私はオノガワです";
 } 
 else {
@@ -12,6 +12,7 @@ $total = 0;
 echo $total;
 for ($i = 0; $i <= 10000; $i++) {
     $total += $i;
+    //$total = $total + $i
 }
 echo $total;
 echo "\n";
@@ -27,7 +28,7 @@ $start = 1;
 /* for文の終わりの値を定義する */
 $end = 100;
 
-for($i = $start; $i < $end; $i++){
+for($i = $start; $i <= $end; $i++){
 
   // 5で割り切れたら{}内を実行する
   if($i % 5 == 0){
