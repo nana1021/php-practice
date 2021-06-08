@@ -18,8 +18,8 @@ echo $total;
 echo "\n";
 
 $fruits = array("lemon","apple","grape","lime","peach");
-foreach($fruits as $fruits){
-    echo "要素は" .$fruits;
+foreach($fruits as $fruit){
+    echo "要素は" .$fruit;
     echo "\n";
 }
 

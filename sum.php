@@ -2,8 +2,7 @@
 function nibai($i){
     return $i = $i * 2;
 }
-$value = 55; //数値を指定
-$sum = nibai($value);
+$sum = nibai(55);
 echo $sum;
 echo"\n";
 
